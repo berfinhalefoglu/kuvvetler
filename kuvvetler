@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class kuvvetler {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int girilensayi = scanner.nextInt();
+        for (int i = 1; i <= girilensayi; i *= 4) {
+            System.out.println(i);
+        }
+        for (int j = 1; j <= girilensayi; j *= 5) {
+            System.out.println(j);
+        }
+    }
+}
